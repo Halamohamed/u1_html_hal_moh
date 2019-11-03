@@ -2,49 +2,79 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="html, css">
+    <meta name="auther" content="hal-moh">
+    <meta name="keyword" content="förening, karlshamn, inkludering, aktivitate, samhälle">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Galleri</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Galleri</h1>
-    <nav><ul>
-            <li><a href="">Kontakt-sida</a></li>
+    <nav class="col-12"><ul>
+            <li><a href="kontakt.html">Kontakt-sida</a></li>
             <li><a href="medlem.html">Bli-medlem</a></li>
-            <li><a href="galleri.html">Galleri-sida</a></li>
-            <li><a href="">Aktivitate-sida</a></li>
+            <li><a href="index.html">Start-sida</a></li>
+            <li><a href="aktivitate.html">Aktivitate-sida</a></li>
             
         </ul>
     </nav>
-    <div id="imgId">
-        <h3>group bild på inkludera i Karlshamn</h3>
-        <iframe src="galleri/ink-2.jpg" alt="bild 1"
-        style="width:400px; height:450; border: none; float: left;"></iframe>
+    <div >
+        <div class="gallery">
+            <a target="_blank" href="galleri/ink-2.jpg">
+                <img src="galleri/ink-2.jpg" alt="bild 1" width="400" height="200">
+            </a>
+            <div class="desc">group bild på inkludera i Karlshamn</div>
+        </div>
         
-        <h3>group bild på efter work</h3>   
-        <iframe src="galleri/ink-5.jpg" alt="bild 2"
-        style="width:400px; height:450; border: none; float: left;"></iframe>
-        <p>fira en lykad updrag</p>   
-        <iframe src="galleri/inkludera.jpg" alt=""
-        style="width:300px; height:350; border: none; float: left;"></iframe>
-        <p> bild på Karlshamn</p>
-        <iframe src="galleri/Karlshamn1.jpg" alt=""
-        style="width:300px; height:350; border: none; float: left;"></iframe>
-        
+
+        <div class="gallery">
+            <a target="_blank" href="galleri/inkludera.jpg">
+                <img src="galleri/inkludera.jpg" alt="bild 3" width="400" height="200">
+            </a>
+            <div class="desc">fira en lykad updrag</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="galleri/Karlshamn1.jpg">
+                <img src="galleri/Karlshamn1.jpg" alt="bild 3" width="400" height="200">
+            </a>
+        <div class="desc">bild på Karlshamn</div>
+        </div> 
+        <div class="gallery">
+                <a target="_blank" href="galleri/ink-5.jpg">
+                    <img src="galleri/ink-5.jpg" alt="bild 2" width="400" height="200">
+                </a>
+            <div class="desc">group bild på efter work</div>
+            </div>
+            <div class="gallery">
+                    <a target="_blank" href="galleri/ink-workshop.jpg">
+                        <img src="galleri/ink-workshop.jpg" alt="workshop" width="400" height="200">
+                    </a>
+                <div class="desc">workshop</div>
+                </div> 
+
+
+
     </div>
-    <div>
+    <div class="footer col-12">
         <footer > 
-            <div class="col-6">
-                <p><address>netport science park</address></p>
-                <p>tel: 0729124485</p>
-                <p><a href="http://lisaslivsrum.se/inkludera-i-karlshamn/">lisaslivsrum</a></p>
-                <p><a href="https://www.facebook.com/inkluderaikarlshamn/">
-                    <img src="galleri/soc-media.jsp.webp" alt="social media" width="200px"></a></p>
-            
+            <div class="adress col-4">
+                <address> 
+                    <p>netport science park</p>
+                    <p>tel: 0729124485</p>
+                    <p><a href="http://lisaslivsrum.se/inkludera-i-karlshamn/">blog</a></p>
+                </address>
             </div> 
-            <div  class="mapId">
-                <iframe id="mapframe" src="https://www.google.com/maps/place/Biblioteksgatan+4,+374+35+Karlshamn/@56.1644253,14.8638612,17z/data=!3m1!4b1!4m5!3m4!1s0x465685036b83195f:0xc07df540397674bf!8m2!3d56.1644253!4d14.8660445?hl=sv"  >
+            <div class="socialm col-4">
+                <p>
+                    <a href="https://www.instagram.com/schvungikarlshamn/">
+                        <img class="instagram-1" src="galleri/images.jpg" alt="social media"  ></a>
+                    <a href="https://www.facebook.com/inkluderaikarlshamn/">
+                        <img class="facebook-1" src="galleri/facebook-icon.png" alt="social media" ></a></p>
+            </div>   
+            <div  class="mapId col-4">
+                <iframe id="mapfram" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2221.576576679604!2d14.863855815845525!3d56.164425280665405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465685036b83195f%3A0xc07df540397674bf!2sBiblioteksgatan%204%2C%20374%2035%20Karlshamn!5e0!3m2!1sen!2sse!4v1572594901272!5m2!1sen!2sse" >
                 </iframe></div>
         </footer>
     </div>
